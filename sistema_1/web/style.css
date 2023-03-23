@@ -1,0 +1,85 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+/* Fondo */
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2011/03/Star_Trek__Enterprise_A__Blue_Planet-w800.jpg?w=800&quality=50&strip=all&ssl=1);
+}
+/* Títulos */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #FFD700;
+}
+/* Campos de entrada y etiquetas */
+input[type="text"], input[type="number"], input[type="double"] {
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* Botón de enviar */
+button[type="submit"] {
+    background-color: #FFD700;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+butto{
+    background-color: #000000;
+    color: #FFD700;
+}
+/* Campos de entrada individuales */
+#nombre, #nombre2, #nombre3, #nombre4 {
+
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 30px 30px;
+}
+#capacidad, #capacidad2, #capacidad3, #capacidad4 {
+
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 30px 30px;
+}
+#parsec, #parsec2, #parsec3, #parsec4 {
+
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 30px 30px;
+}
+
+#recorrido, #recorrido2, #recorrido3, #recorrido4 {
+
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 30px 30px;
+
+}
+
+input[type="text"], input[type="number"], input[type="double"] {
+    border-radius: 0px;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 2px;
+    margin-bottom: 10px;
+    width: 18.9%;
+    box-sizing: border-box;
+}
